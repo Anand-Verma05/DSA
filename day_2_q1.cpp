@@ -1,3 +1,4 @@
+https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1
 //to find if the given string is bad or not 
 //a string is bad if it contains more than 5 vowels or 3consonant consecutively
 //string has '?' which can be any character
