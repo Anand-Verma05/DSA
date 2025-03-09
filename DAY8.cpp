@@ -23,7 +23,9 @@ class Solution {
 
 TC:O(n)
 SC:O(1)
-approach: iterate the array first we have marked the first zero then we have swapped the nonn zero elements with the first zero and whenever we find the non-zero elements then only we have moved the j pointer(which was storing the first zero) so that it agains point to the fisrt zero
+approach: iterate the array first we have marked the first zero then we have swapped the nonn 
+zero elements with the first zero and whenever we find the non-zero elements then only we have moved the j
+pointer(which was storing the first zero) so that it agains point to the fisrt zero
 
 Q2.Rotate Array
 https://leetcode.com/problems/rotate-array/description/
@@ -46,4 +48,5 @@ class Solution {
 };
 TC:O(n)
 SC:O(1)
-approach:we have rotated the vector in 3 parts , first we have reversed the vector from 0 to n-k-1 (n is the size) , then from n-k to n-1 and the reversed the whole vector
+approach:we have rotated the vector in 3 parts , first we have reversed the vector from 0 to n-k-1 (n is the size) , then from n-k
+    to n-1 and the reversed the whole vector
