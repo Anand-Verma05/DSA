@@ -49,3 +49,8 @@ public:
 
 TC:O(n)
 SC:O(1)
+approach:used three pointers which are pointing at the first and last indexes and then we have used a mid named pointer which will traverse the array and it will swap the
+elements accordingly and move the high , low pointers accordingly
+if mid element is 0 that means we need to swap it with low element and then we move the pointers forward
+if mid element is 2 that means it shoul be at the end so we'll swap it with high and since after swapping mid can be 1 or 0 so we only decrease the high pointer
+if mid element is 1 that means it is in the right place so we just move mid one position ahead
