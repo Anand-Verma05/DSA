@@ -19,6 +19,7 @@ public:
 };
 TC:O(n)
 SC:O(n)
+approach:we have used a map  to store the element and its index and then for each element we are trying to find the remaining elemnt in the map if it is found we just return both elements' indexes
 
 Q2.Sort Colors
 https://leetcode.com/problems/sort-colors/description/
