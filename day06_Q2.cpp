@@ -29,7 +29,8 @@ class Solution {
 TC:O(n)
 SC:O(1)
 
-approach:we have started from 2nd element since for 1st span will be 1 then for the next ones we have stored the count of previous ones ans to optimize it we have skipped the elements which should not be checked 
+approach:we have started from 2nd element since for 1st span will be 1 then for the next ones we have stored the count of previous ones ans to optimize it we have skipped 
+the elements which should not be checked 
 
 
 
